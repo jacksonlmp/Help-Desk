@@ -1,7 +1,11 @@
 <?php
+    session_start();
+
+    print_r($_SESSION);
+
+
     //variavel que verifica se a autencidade foi realizada 
     $usuario_autenticado = false;
-
 
     //usuarios do sistema
     $usuarios_app = array(
